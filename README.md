@@ -1,10 +1,14 @@
 # CBBOS
 Console Based Banking Operations System
+
 This Python program provides a simple bank account management system with the following features:
 
 Create Savings and Current accounts.
+
 Deposit money into an account.
+
 Withdraw money from an account.
+
 Check the account balance and view transaction history.
 Transfer funds between two accounts.
 How to Use
