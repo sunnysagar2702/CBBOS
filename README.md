@@ -1,2 +1,39 @@
 # CBBOS
 Console Based Banking Operations System
+This Python program provides a simple bank account management system with the following features:
+
+Create Savings and Current accounts.
+Deposit money into an account.
+Withdraw money from an account.
+Check the account balance and view transaction history.
+Transfer funds between two accounts.
+How to Use
+Run the program by executing the main() function at the end of the code.
+You will be presented with a menu of banking operations.
+Choose the operation you want to perform by entering the corresponding number.
+Follow the on-screen instructions to complete the chosen operation.
+Classes
+BankAccount
+This is the base class for all bank accounts. It includes the following methods:
+
+deposit(amount): Deposit money into the account.
+withdraw(amount): Withdraw money from the account.
+get_balance(): Get the current balance of the account.
+get_transactions(): Get the transaction history of the account.
+transfer(target_account, amount): Transfer funds from this account to the target account.
+SavingsAccount (Inherits from BankAccount)
+This class represents a savings account and includes an additional method:
+
+apply_interest(): Apply interest to the savings account balance.
+CurrentAccount (Inherits from BankAccount)
+This class represents a current account and includes an additional method:
+
+overdraft_protection(): Implement overdraft protection for the current account.
+Functions
+generate_account_number(accounts): Generate a unique account number.
+create_account(accounts): Create a new bank account and add it to the accounts dictionary.
+deposit(accounts): Deposit money into an account.
+withdraw(accounts): Withdraw money from an account.
+balance_inquiry(accounts): Check the balance of an account and display transaction history.
+fund_transfer(accounts): Transfer funds between two accounts.
+main(): The main program loop that allows users to interact with the banking system.
