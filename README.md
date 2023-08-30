@@ -38,7 +38,6 @@ This class represents a savings account and includes an additional method:
 
 This class represents a current account and includes an additional method:
 
-- `overdraft_protection()`: Implement overdraft protection for the current account.
 
 ## Functions
 
@@ -49,6 +48,21 @@ This class represents a current account and includes an additional method:
 - `balance_inquiry(accounts)`: Check the balance of an account and display transaction history.
 - `fund_transfer(accounts)`: Transfer funds between two accounts.
 - `main()`: The main program loop that allows users to interact with the banking system.
+
+
+### Usage
+Run the script and follow the on-screen prompts to perform banking operations.
+
+## How to Run
+1. Make sure you have Python installed on your system.
+2. Save this script to a file, e.g., `CBBOS_Project.py`.
+3. Open a terminal or command prompt.
+4. Navigate to the directory containing the script.
+5. Run the script using the command: `python CBBOS_Project.py`
+
+
+
+
 
 ## Example Usage
 
