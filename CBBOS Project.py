@@ -59,14 +59,6 @@ class CurrentAccount(BankAccount):
     # Constructor to initialize current account attributes.
     def __init__(self, account_number, account_holder):
         super().__init__(account_number, account_holder)  # Initialize parent attributes.
-        self.overdraft_limit = 1000.0  # Set the overdraft limit for current accounts.
-
-    # Method to implement overdraft protection for the current account.
-    def overdraft_protection(self):
-        if self.balance < 0 and abs(self.balance) <= self.overdraft_limit:
-            self.balance = 0  # Apply overdraft protection if conditions are met.
-            return True
-        return False
 
 # Function to generate a unique account number.
 def generate_account_number(accounts):
@@ -182,4 +174,3 @@ def main():
 
 if __name__ == "__main__":
     main()  # Call the main function to start the program.
-
